@@ -3,8 +3,6 @@
 A static website for physics tutoring, featuring multiple HTML pages, CSS styling, images, PDFs, and favicon. The site is served using NGINX in a Docker container and deployed on an AWS EC2 instance with CI/CD automation via GitHub Actions.
 
 # Physics Tutors Web App Structure
-# Physics Tutors Web App Structure
-
 ```
 Physics-Tutors-Webapp-Files/
 ├── .github/

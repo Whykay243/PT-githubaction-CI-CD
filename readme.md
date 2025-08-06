@@ -3,26 +3,28 @@
 A static website for physics tutoring, featuring multiple HTML pages, CSS styling, images, PDFs, and favicon. The site is served using NGINX in a Docker container and deployed on an AWS EC2 instance with CI/CD automation via GitHub Actions.
 
 # Physics Tutors Web App Structure
-Physics-Tutors-Webapp-Files/
-├── .github/
-│   └── workflows/
-│       └── docker-deploy.yml       # ✅ GitHub Actions CI/CD workflow
-├── html/
-│   ├── index.html
-│   ├── login.html
-│   ├── signup.html
-│   ├── feedback.html
-│   ├── about.html
-│   └── homeworkhelpsubmission.html # ✅ All your HTML pages
-├── styles/
-│   └── style.css                   # ✅ CSS styling
-├── images/
-│   └── ...                         # ✅ Images: logo, background, etc.
-├── pdf/
-│   └── sample.pdf                  # ✅ Static PDF file(s)
-├── favicon.ico                     # ✅ Favicon for the browser tab
-├── Dockerfile                      # ✅ NGINX-based Docker config
-└── README.md                       # ✅ Project description (optional)
+# Physics Tutors Web App Structure
+
+- `Physics-Tutors-Webapp-Files/`
+  - `.github/`
+    - `workflows/`
+      - `docker-deploy.yml` ✅ GitHub Actions CI/CD workflow
+  - `html/`
+    - `index.html`
+    - `login.html`
+    - `signup.html`
+    - `feedback.html`
+    - `about.html`
+    - `homeworkhelpsubmission.html` ✅ All your HTML pages
+  - `styles/`
+    - `style.css` ✅ CSS styling
+  - `images/` ✅ Images: logo, background, etc.
+  - `pdf/`
+    - `sample.pdf` ✅ Static PDF file(s)
+  - `favicon.ico` ✅ Favicon for the browser tab
+  - `Dockerfile` ✅ NGINX-based Docker config
+  - `README.md` ✅ Project description (optional)
+
 ```
 
 
